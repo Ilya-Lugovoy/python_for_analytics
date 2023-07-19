@@ -19,5 +19,5 @@ def check_rhythm(poem):
     else:
         print("Пам парам")
     
-poem = input('Enter poem: ')
+poem = input('Enter poem: ').lower()
 check_rhythm(poem)
