@@ -29,17 +29,17 @@ def choose():
         print('Options: \
         1 - add contact \
         2 - show contacts \
-        3 - find contact')
+        3 - find contact \
+        4 - finish session')
         n = input('Enter option: ')
         match n:
             case '1':
                 add_contact()
-                flag = False
             case '2':
                 show_contact()
-                flag = False
             case '3':
                 find_contact()
-                flag = False
+            case '4':
+                flag=False
 
 choose()
